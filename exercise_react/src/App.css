@@ -1,0 +1,164 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #fce181;
+  color: rebeccapurple;
+  margin: 0 auto;
+  padding: 10px;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(20, 220, 80);
+}
+
+p {
+  font-size: 30px;
+  color: rgb(20, 220, 80);
+}
+
+header {
+  background-color: darkcyan;
+  width: 100%;
+}
+
+tr th {
+  border: 2px solid rgb(46, 26, 26);
+  color: rgb(96, 0, 252);
+  padding: 2px 10px;
+  text-align: center;
+}
+
+tr td {
+  border: 2px solid rgb(37, 22, 22);
+  color: navy;
+  padding: 3px 3px;
+}
+
+input {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  width: 95%;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+
+select {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 56px;
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 57px;
+  text-align: center;
+  font-size: 18px;
+  width: 10%;
+}
+
+.bottom-button {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  background-color: #61dafb;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+.bottom-button:hover {
+  background-color: #25c1ec;
+
+}
+
+table {
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+  border: 5px solid rgb(122, 22, 22);
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fef9c7;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.edit-exercise-container,
+.create-exercise-container {
+  width: 100%;
+  height: 320px;
+  position: relative;
+}
+
+.create-exercise-link {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#exercises tr:hover {
+  background-color: #a7cdd8;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: #e5f3e6;
+}
+
+tr {
+  background-color: #9ef0d2;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.link-container {
+  padding: 5px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.link-div {
+  background-color: #61dafb;
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid blue;
+  text-align: center;
+}
+.link-div:hover {
+  background-color: #25c1ec;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  color: rgb(27, 25, 25);
+  text-align: center;
+  background-color: darkcyan;
+}
