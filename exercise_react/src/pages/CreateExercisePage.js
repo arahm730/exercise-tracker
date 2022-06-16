@@ -32,7 +32,7 @@ export const CreateExercisePage = () => {
   return (
     <div className="create-exercise-container">
       <h2>Add Exercise</h2>
-      <table>
+      <table className="border-fix">
         <thead>
           <tr>
             <th>Name</th>
